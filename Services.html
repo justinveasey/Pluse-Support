@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<h1 style="font-family:Helvetica;">  Services</h1>
+<!DOCTYPE html>
+<html>
+ <center> <p style="font-family:Helvetica;">            My product is called pluse suport. It will be a product that you can quickly scan a with body for 1st responders to know what they are dealing with for when they get to the site of what ever is going on.</p> </center>>
+
+      <center>  <p style="font-family:Helvetica;"> So for example: if someone was to get shot somewhere in there body and someone had my product on them they would put this product on there body somewhere and it would do a body scan and send that to 1st responders so they know what to do when they get there, so they know exactly where to aply pressure, or put medical gaws. Or if someones is bleeding the will know to have a tourniquet ready for the person. </p> </center>
+
+         <center> <p style="font-family:Helvetica;">   And I don’t really have a current time when this product will be available to anyone since it will probably take awhile to make and make it a real thing.</p> </center>>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+  background-color: #2F303A;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+</style>
+</head>
+<body>
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Menu</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href=index.html>Home</a>
+    <a href=Services.html>Services</a>
+    <a href= About.html>About Me</a>
+    <a href=Contact.html>Contact Me</a>
+  </div>
+</div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>
